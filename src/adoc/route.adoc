@@ -1,0 +1,165 @@
+== Highload course
+
+//.An example table
+//[width="50%",cols=">s,^m,e",frame="topbot",options="header,footer"]
+//|==========================
+//|0     2+|Columns 2 and 3
+//|1       |Item 1  |Item 1
+//|2       |Item 2  |Item 2
+//|3       |Item 3  |Item 3
+//|4       |Item 4  |Item 4
+//|footer 1|footer 2|footer 3
+//|==========================
+
+https://habr.com/company/odnoklassniki/blog/347798/[Лекции Технополиса. Проектирование высоконагруженных систем (осень 2017)]
+
+ >> people @ habr
+ >> https://github.com/polis-mail-ru/2017-highload-kv
+ >> solutions: https://github.com/polis-mail-ru/2017-highload-kv/issues?utf8=%E2%9C%93&q=is%3Aclosed+assignee%3Aincubos+
+
+https://www.youtube.com/user/tpmgtu/videos[Технострим Mail.Ru Group @ *Youtube*]
+
+https://ok.ru/group/53245288710321/video/c1850545[Плейлист всех лекций OK]
+
+ >> Database
+ >> Machine learning
+
+
+https://habr.com/company/mailru/blog/321402/[SmartMonitoring — мониторинг бизнес-логики в Одноклассниках]
+
+https://ok.ru/technopolis
+
+=== 2nd lecture
+CRDT - conflict-free replicated data type
+
+== Oldres
+
+https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA[DEVCLUB.EU @ *Youtube*]
+
+== Database
+
+http://cassandra.apache.org/download/[Cassandra]
+
+=== Lecture 1
+
+- https://en.wikipedia.org/wiki/Database[database]
+- https://en.wikipedia.org/wiki/Create,_read,_update_and_delete[CRUD]
+- http://en.wikipedia.org/wiki/Big_O_notation[Big-O-notation]
+- Radix sort - O(k * n)
+- https://elizarov.livejournal.com/27425.html[Блог Романа Елизарова, Память: последовательный доступ vs случайный доступ. Как замерить?]
+- https://gist.github.com/jboner/2841832[Ограничения физического мира, AKKA]
+- Zippy compression
+
+Large datasets:
+
+- https://www.quora.com/Data/Where-can-I-find-large-datasets-open-to-the-public[Where can I find large datasets open to the public?]
+- https://www.imdb.com/interfaces/[IMDB]
+- http://www.rfc-editor.org/rfc/[RFCs]
+
+=== Lecture 2.1: Hash and cache
+- https://en.wikipedia.org/wiki/Hash_table[Hash table]
+- java.util.HashMap
+- java.util.concurrent.ConcurrentHashMap
+- http://www.cs.cmu.edu/~rwh/theses/okasaki.pdf[Chris Okasaki. Purely Functional Data Structures]
+- http://www.memcached.org/[memcached]
+- libevent[library for synchronous event handling]
+- http://en.wikipedia.org/wiki/Consistent_hashing[consistent hashing]
+- http://docs.basho.com/riak/1.1.4/references/appendices/concepts/#Clustering[Riak clustering]
+- http://db-engines.com/en/ranking/key-value+store[DB-Engines Ranking of Key-value Stores]
+- http://redis.io/commands[Redis]
+
+=== Lecture 2.2: CAP
+- http://ksat.me/a-plain-english-introduction-to-cap-theorem/[A plain english introduction to CAP Theorem]
+- https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed[CAP Twelve Years Later: How the "Rules" Have Changed]
+- https://www.facebook.com/note.php?note_id=23844338919&id=9445547199[Facebook: scaling out]
+- https://en.wikipedia.org/wiki/Check_kiting[check kiting]
+- https://www.cs.cornell.edu/projects/ladis2008/materials/eBayScalingOdyssey%20ShoupTravostino.pdf[eBay scaling principles]
+- https://en.wikipedia.org/wiki/Multiversion_concurrency_control[Multiversion concurrency control]
+- https://en.wikipedia.org/wiki/Two-phase_commit_protocol[Two-phase commit protocol]
+- https://en.wikipedia.org/wiki/Three-phase_commit_protocol[Three-phase commit protocol]
+- https://en.wikipedia.org/wiki/Paxos_(computer_science)[Paxos]
+- https://queue.acm.org/detail.cfm?id=1394128[Base: An Acid Alternative]
+- https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing[Fallacies of distributed computing]
+- https://rgoarchitects.com/Files/fallacies.pdf[fallacies.pdf]
+
+=== Lecture 3: Distributed commit
+- https://en.wikipedia.org/wiki/Stable_storage[Stable storage]
+- https://www.the-paper-trail.org/post/2008-11-29-consensus-protocols-three-phase-commit/[3PC]
+- http://research.google.com/archive/spanner.html[Google spanner, time synchronization]
+- https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf[Paxos made live]
+- https://en.wikipedia.org/wiki/State_machine_replication
+- https://www.youtube.com/watch?v=YbZ3zDzDnrw[Diego Ongaro. Raft lecture (Raft user study)]
+    - https://raft.github.io/[visualization]
+    - https://ramcloud.stanford.edu/~ongaro/userstudy/raft.pdf[presentation]
+    -
+- https://www.youtube.com/watch?v=JEpsBg0AO6o[Diego Ongaro. Paxos lecture (Raft user study)]
+- https://ramcloud.atlassian.net/wiki/spaces/logcabin/overview[List of Raft implementation examples]
+- https://en.wikipedia.org/wiki/Byzantine_fault_tolerance[Byzantine fault tolerance]
+- http://raftuserstudy.s3-website-us-west-1.amazonaws.com/proof.pdf[Safety Proof and Formal Specification for Raft]
+-
+
+== Google
+
+https://habr.com/company/google/[Как собеседует Google]
+
+https://hire.google.com/phone-screening/[Phone screening]
+
+https://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/[Design interview]
+
+== Sources
+=== Blogs
+https://shipilev.net
+
+https://mechanical-sympathy.blogspot.ru
+
+http://stuff-gil-says.blogspot.ru
+
+http://psy-lob-saw.blogspot.ru
+
+http://www.brendangregg.com
+
+https://blog.acolyer.org
+
+https://aphyr.com
+
+http://highscalability.com
+
+=== Conferences
+
+
+https://jug.ru
+
+
+https://jokerconf.com
+
+
+https://jpoint.ru
+
+
+http://www.highload.ru
+
+
+https://www.devoxx.co.uk
+
+
+https://qconlondon.com
+
+
+https://thestrangeloop.com
+
+
+https://en.wikipedia.org/wiki/List_of_computer_science_conferences
+
+=== Articles
+
+https://research.google.com/pubs/papers.html
+
+https://research.fb.com/publications/
+
+https://github.com/mr-mig/every-programmer-should-know
+
+https://github.com/papers-we-love/papers-we-love
+
+http://amturing.acm.org/lectures.cfm
+
+http://www.sigplan.org/Awards/
